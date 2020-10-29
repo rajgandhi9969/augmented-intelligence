@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="yellowPoly">
+<LineStyle><color>Af00ffff</color>
+<width>6</width>
+</LineStyle><PolyStyle><color>7f00ff00</color>
+</PolyStyle>
+</Style>
+<Placemark><styleUrl>#yellowPoly</styleUrl>
+<LineString>
+ <Description>Speed in Knots, instead of altitude.</Description>
+<extrude>1</extrude>
+<tesselate>1</tesselate>
+<altitudeMode>absolute</altitudeMode>
+<coordinates>
+-77.679955,43.08611833333333,0.02
+-77.679955,43.08611833333333,0.01
+-77.679955,43.08611666666667,0.0
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.02
+-77.679955,43.08611666666667,0.02
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.0
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.0
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.0
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.0
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.03
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.01
+-77.679955,43.08611666666667,0.0
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark><description>Going no where</description><Style id="normalPlacemark"><IconStyle><color>ff0000ff</color><Icon><href>http://maps.google.com/mapfiles/kml/shapes/info.png</href></Icon></IconStyle></Style><Point><coordinates>-77.679955,43.08611666666667</coordinates></Point></Placemark>
+</Document>
+</kml>
